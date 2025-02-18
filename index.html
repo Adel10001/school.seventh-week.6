@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> اختبار قصير في بطاقة الأسبوع السابع</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+        .quiz-container {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .question {
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .options {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .submit-btn {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: auto;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        .correct p {
+            color: green;
+        }
+        .incorrect p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1> اختبار قصير في بطاقة الأسبوع السابع</h1>
+
+        <!-- السؤال الأول -->
+        <div class="question" id="q1-container">
+            <p>1. ما هي المكونات الأساسية لجهاز الدوران؟</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="c"> القلب، الرئتان، الدم .</label>
+                <label><input type="radio" name="q1" value="b"> القلب، الأوعية الدموية، الجهاز التنفسي .</label>
+               	<label><input type="radio" name="q1" value="a">  القلب، الأوعية الدموية، الدم  .</label>			
+							
+            </div>
+        </div>
+		
+        <!-- السؤال الثاني -->
+        <div class="question" id="q2-container">
+            <p>2. ما وظيفة القلب الرئيسية؟</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a"> نقل الأكسجين مباشرة إلى الخلايا.</label>
+                <label><input type="radio" name="q2" value="b"> تخزين الدم.</label>
+                <label><input type="radio" name="q2" value="c">  ضخ الدم لجميع أنحاء الجسم .</label>
+            </div>
+        </div>
+
+        <!-- السؤال الثالث -->
+        <div class="question" id="q3-container">
+            <p>3. أين يقع القلب في جسم الإنسان؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="a"> في الجهة اليمنى من الصدر .</label>
+                <label><input type="radio" name="q3" value="b"> في منتصف الصدر يميل قليلاً لليسار  .</label>
+                <label><input type="radio" name="q3" value="c">  خلف العمود الفقري .</label>
+            </div>
+        </div>
+
+
+        <!-- السؤال الرابع -->
+        <div class="question" id="q4-container">
+            <p>4. لماذا يحاط القلب بغشاء التامور؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="a">  لحمايته من الأمراض .</label>
+                <label><input type="radio" name="q4" value="b">   لمنع احتكاكه مع الأعضاء الأخرى.</label>
+                <label><input type="radio" name="q4" value="c">  ليزيد من قوة ضخ الدم.</label>
+            </div>
+        </div>
+
+        <!-- السؤال الخامس -->
+        <div class="question" id="q5-container">
+            <p>5. ما السبب الرئيسي لكون جدران الشعيرات الدموية رقيقة؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="a">  لمنع تجلط الدم .</label>
+                <label><input type="radio" name="q5" value="b"> للسماح بمرور كميات كبيرة من الدم .</label>
+                <label><input type="radio" name="q5" value="c"> لتسهيل تبادل الغازات والمواد الغذائية  .</label>
+            </div>
+        </div>
+		<!-- السؤال السادس -->
+        <div class="question" id="q6-container">
+            <p>6. يسير الدم في مسار مغلق داخل الأوعية الدموية. ما أهمية هذا النظام المغلق لجسم الإنسان؟  </p>
+            <div class="options">
+                <label><input type="radio" name="q6" value="b">  يمنع فقدان الدم ويضمن توزيعه بكفاءة.</label>
+				<label><input type="radio" name="q6" value="a"> يزيد من كمية الأكسجين في الدم .</label>
+                <label><input type="radio" name="q6" value="c">  يساعد في تكوين خلايا دم جديدة بشكل أسرع.</label>
+            </div>
+        </div>
+		
+				<!-- السؤال السابع -->
+        <div class="question" id="q7-container">
+            <p>7. يعاني بعض الأشخاص من انخفاض عدد كريات الدم الحمراء، مما يؤدي إلى التعب والشحوب. لماذا يحدث ذلك؟</p>
+            <div class="options">
+                <label><input type="radio" name="q7" value="b">   لأن كريات الدم الحمراء مسؤولة عن نقل الأكسجين إلى الخلايا.</label>
+				<label><input type="radio" name="q7" value="a">    لأن كريات الدم الحمراء تسبب زيادة ضغط الدم.</label>
+                <label><input type="radio" name="q7" value="c">  لأن كريات الدم الحمراء لا تلعب دورًا مهمًا في الجسم.</label>
+            </div>
+        </div>
+
+				<!-- السؤال الثامن -->
+        <div class="question" id="q8-container">
+            <p>8. يعتمد جهاز الدوران على التعاون بين القلب والأوعية الدموية والدم. ماذا قد يحدث لو تعرضت الأوعية الدموية للانسداد؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q8" value="b"> سيعمل القلب بشكل أسرع لتعويض الانسداد .</label>
+				<label><input type="radio" name="q8" value="a"> لن يؤثر ذلك على وظائف الجسم .</label>
+                <label><input type="radio" name="q8" value="c"> ستقل كمية الدم المتدفقة إلى أعضاء الجسم  .</label>
+            </div>
+        </div>
+		
+				<!-- السؤال التاسع -->
+        <div class="question" id="q9-container">
+            <p>9.يحتاج الرياضيون إلى جهاز دوران قوي أثناء التمارين. ما العوامل التي تساعد في تحسين كفاءة جهاز الدوران لديهم؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q9" value="b">  تناول الأطعمة الدسمة والغنية بالدهون.</label>
+				<label><input type="radio" name="q9" value="a">  النوم لفترات طويلة دون حركة.</label>
+                <label><input type="radio" name="q9" value="c"> ممارسة التمارين الرياضية بانتظام.</label>
+            </div>
+        </div>
+				<!-- السؤال العاشر -->
+        <div class="question" id="q10-container">
+            <p>10. كانت هالة تشاهد والدتها وهي تعالج جرحًا صغيرًا على يدها، فلاحظت لون الدم الأحمر غامق وسألت بفضول:
+"أمي، لماذا لون الدم أحمر؟ هل هو بسبب الطعام الذي نأكله؟"
+ضحكت الأم وقالت: "ليس تمامًا يا هالة، هناك مادة خاصة داخل الدم تعطيه هذا اللون، هل تعرفينها؟"  ما المادة التي تعطي الدم لونه الأحمر؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q10" value="b"> البلازما .</label>
+				<label><input type="radio" name="q10" value="a"> الهيموجلوبين .</label>
+                <label><input type="radio" name="q10" value="c">  الأكسجين .</label>
+            </div>
+        </div>
+		
+        <button class="submit-btn" onclick="calculateResult()">إرسال الإجابات</button>
+        <div class="result" id="result"></div>
+    </div>
+	
+
+    <script>
+        function calculateResult() {
+            const answers = {
+                q1: 'a',
+                q2: 'c',
+                q3: 'b',
+                q4: 'b',
+                q5: 'c',
+				q6: 'b',
+				q7: 'b',
+				q8: 'c',
+				q9: 'c',
+				q10:'a',
+            };
+
+            let score = 0;
+
+            for (let question in answers) {
+                const container = document.getElementById(`${question}-container`);
+                const userAnswer = document.querySelector(`input[name="${question}"]:checked`);
+
+                if (userAnswer) {
+                    if (userAnswer.value === answers[question]) {
+                        score++;
+                        container.classList.add('correct');
+                        container.classList.remove('incorrect');
+                    } else {
+                        container.classList.add('incorrect');
+                        container.classList.remove('correct');
+                    }
+                } else {
+                    container.classList.remove('correct');
+                    container.classList.add('incorrect');
+                }
+            }
+
+            const resultDiv = document.getElementById('result');
+            resultDiv.textContent = `لقد أجبت على : ${score} من 10 أسئلة`;
+        }
+    </script>
+</body>
+</html>
